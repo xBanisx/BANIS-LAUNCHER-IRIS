@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.banis.launcher'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.banis.launcher'
+        minSdk 19
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
